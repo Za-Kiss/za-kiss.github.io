@@ -1,0 +1,33 @@
+main {
+	/* border-style: solid;
+	border-width: 1px;
+	border-color: black; */
+	border: solid 1px black;
+}
+article {
+	width: 100px;
+	/* width: 10em; */
+	/* width: 50%; */
+	height: 400px;
+	margin: 30px;
+	border: solid 1px black;
+}
+article:first-of-type{
+	/*
+	background-image: url("dog.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	*/
+	background: url('dog.jpg') no-repeat center;
+	background-size: contain;
+}
+
+* {
+	box-sizing: content-box;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchter',  sans-serif;
+	/* @font-face {
+		font-family: 'buggee'
+		src: url(''); */
+	}
+}
+/* applies for everything */
